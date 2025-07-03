@@ -1,6 +1,6 @@
 import React from "react";
 import Sidenav from "./templates/Sidenav";
-import Topnav from "./templates/Topnav";
+import TopNav from "./templates/TopNav";
 
 const Home = () => {
   document.title = "Movie App | Homepage";
@@ -8,7 +8,7 @@ const Home = () => {
     <>
       <Sidenav />
       <div className="w-[80%] h-full ">
-        <Topnav />
+        <TopNav />
       </div>
     </>
   );
