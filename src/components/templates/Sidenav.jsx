@@ -15,39 +15,39 @@ const Sidenav = () => {
           News Feeds
         </h1>
         <Link className=" hover:text-white hover:bg-[#6556CD] duration-300 rounded-lg p-5">
-          <i class="mr-2 ri-fire-fill"></i>
+          <i className="mr-2 ri-fire-fill"></i>
           Trending
         </Link>
         <Link className=" hover:text-white hover:bg-[#6556CD] duration-300 rounded-lg p-5">
-          <i class="mr-2 ri-bard-fill"></i>
+          <i className="mr-2 ri-bard-fill"></i>
           Popular
         </Link>
         <Link className=" hover:text-white hover:bg-[#6556CD] duration-300 rounded-lg p-5">
-          <i class="mr-2 ri-movie-2-fill"></i>
+          <i className="mr-2 ri-movie-2-fill"></i>
           Movies
         </Link>
         <Link className=" hover:text-white hover:bg-[#6556CD] duration-300 rounded-lg p-5">
-          <i class="mr-2 ri-tv-2-fill"></i>
+          <i className="mr-2 ri-tv-2-fill"></i>
           Tv Show
         </Link>
         <Link className=" hover:text-white hover:bg-[#6556CD] duration-300 rounded-lg p-5">
-          <i class="mr-2 ri-team-fill"></i>
+          <i className="mr-2 ri-team-fill"></i>
           people
         </Link>
       </nav>
 
       {/* Website Information */}
-      <hr className="border-none h-[1px] bg-zinc-400" />
+      <hr className="border-none h-[1px] bg-zinc-400 mt-1" />
       <nav className="flex flex-col text-zinc-400 text-xl gap-3">
         <h1 className="text-white font-semibold text-xl mt-5 ">
           Website Information
         </h1>
         <Link className=" hover:text-white hover:bg-[#6556CD] duration-300 rounded-lg p-5">
-          <i class=" mr-2 ri-information-fill"></i>
+          <i className=" mr-2 ri-information-fill"></i>
           About
         </Link>
         <Link className=" hover:text-white hover:bg-[#6556CD] duration-300 rounded-lg p-5">
-          <i class="mr-2 ri-contacts-fill"></i>
+          <i className="mr-2 ri-contacts-fill"></i>
           Contact Us
         </Link>
       </nav>

@@ -1,18 +1,17 @@
-import React from 'react'
-import Sidenav from './templates/Sidenav'
+import React from "react";
+import Sidenav from "./templates/Sidenav";
+import Topnav from "./templates/Topnav";
 
 const Home = () => {
-    document.title = "Movie App | Homepage"
+  document.title = "Movie App | Homepage";
   return (
-    <> 
-         <Sidenav/>
-         <div className='w-[80%] h-full '></div>
-
-      
-      
-    
+    <>
+      <Sidenav />
+      <div className="w-[80%] h-full ">
+        <Topnav />
+      </div>
     </>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
