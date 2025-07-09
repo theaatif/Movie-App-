@@ -13,8 +13,7 @@ const Header = ({ data }) => {
         `,
         backgroundSize: "cover",
         backgroundPosition: "center",
-        backgroundRapeat: "no-repeat"
-
+        backgroundRapeat: "no-repeat",
       }}
       className="w-full h-[50vh] flex flex-col justify-end items-start  p-[5%]"
     >
@@ -32,7 +31,9 @@ const Header = ({ data }) => {
         <i className="ml-5 text-[#7565DE] text-2xl mr-2 ri-album-fill"></i>{" "}
         {data.media_type.toUpperCase()}
       </p>
-      <Link className="text-white bg-[#6556CD] p-4 mt-3 rounded ">Watch Trailer</Link>
+      <Link className="text-white bg-[#6556CD] p-4 mt-3 rounded ">
+        Watch Trailer
+      </Link>
     </div>
   );
 };
