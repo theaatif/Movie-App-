@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 
 const Cards = ({ data, title }) => {
   return (
-    <div className="flex flex-wrap w-[full] justify-center">
+    <div className="flex flex-wrap w-full px-[5%] justify-center bg-[#1F1E24]" >
       {data.map((c, i) => (
         <Link key={i} className="w-[25vh] mr-[5%] mb-[5%]">
-          <img className="object-cover h-[30vh] shadow-[8px_17px_38px_rgba(0,0,0,.5)]"
+          <img className="object-cover h-[40vh] shadow-[8px_17px_38px_rgba(0,0,0,.5)]"
             src={`https://image.tmdb.org/t/p/original/${
               c.poste_path || c.backdrop_path
             }`}
