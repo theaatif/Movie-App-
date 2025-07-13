@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
+import Trending from "../Trending";
 
 const Sidenav = () => {
   return (
@@ -12,7 +13,10 @@ const Sidenav = () => {
       {/* side nav list */}
       <nav className="flex flex-col text-zinc-400 text-xl gap-3">
         <h1 className="text-white font-semibold text-xl mt-6 ">News Feeds</h1>
-        <Link className=" hover:text-white hover:bg-[#6556CD] duration-300 rounded-lg p-5">
+        <Link
+          to="/trending"
+          className=" hover:text-white hover:bg-[#6556CD] duration-300 rounded-lg p-5"
+        >
           <i className="mr-2 ri-fire-fill"></i>
           Trending
         </Link>

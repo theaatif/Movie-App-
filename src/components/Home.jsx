@@ -5,6 +5,7 @@ import Header from "./templates/Header";
 import axios from "../utils/axios";
 import HorizontalCards from "./templates/HorizontalCards";
 import Dropdown from "./templates/Dropdown";
+import Loading from "./Loading";
 
 const Home = () => {
   let [wallpaper, setWallpaper] = useState(null);
@@ -60,7 +61,7 @@ const Home = () => {
       </div>
     </>
   ) : (
-    <h1>Loading....</h1>
+    <Loading/>
   );
 };
 

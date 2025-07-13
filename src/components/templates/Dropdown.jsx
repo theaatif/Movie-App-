@@ -13,7 +13,7 @@ const Dropdown = ({ title, options, func }) => {
           </option>
         ))}
       </select>
-    </div>
+    </div> 
   );
 };
 
